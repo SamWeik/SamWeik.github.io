@@ -1,0 +1,17 @@
+<app-head></app-head>
+<app-navi></app-navi>
+<div class="container">
+    <div class="outline">
+        <div class="page">
+            <div *ngIf="aboutStatus">
+                <app-about></app-about>
+            </div>
+            <div *ngIf="noteStatus">
+                <app-notes></app-notes>
+            </div>
+            <div *ngIf="resumeStatus">
+                <app-resume></app-resume>
+            </div>
+        </div>
+    </div>
+</div>

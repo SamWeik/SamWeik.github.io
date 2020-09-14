@@ -1,0 +1,43 @@
+h1 {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.course {
+    padding-left: 10px;
+    width: 350px;
+}
+
+.file {
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.file:hover {
+    background-color: rgb(148, 148, 148);
+}

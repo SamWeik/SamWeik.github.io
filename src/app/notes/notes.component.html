@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+<div class="list">
+    <div class="course" *ngFor="let class of classes; index as i;">
+        <h3>{{class.name}} - {{class.level}}: {{class.date}}</h3>
+        <div class="file" *ngFor="let note of class.notes">
+            <a href="{{note.file}}">
+                <h4>{{note.title}} - Type: {{note.fileType}}</h4>
+            </a>
+        </div>
+    </div>
+</div>

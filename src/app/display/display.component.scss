@@ -1,0 +1,28 @@
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    top: 50%;
+    left: 0px;
+    width: 99%;
+    border: 1px outset #3f3;
+}
+
+.outline {
+    margin: 3%;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 5px outset #3f3;
+    border-radius: 25px;
+}
+
+.page {
+    background-color: white;
+    display: flex;
+    width: 900px;
+    margin: 2px;
+    border-radius: 18px;
+}

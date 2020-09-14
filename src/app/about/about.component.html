@@ -1,0 +1,27 @@
+<!-- Information About Me Section-->
+<h1>{{title}}</h1>
+<div *ngFor="let x of headers; index as i;">
+    <h2>{{x}}</h2>
+    <p>{{bodies[i]}}</p>
+</div>
+<!-- Personal Projects Section -->
+<h2>Personal Projects</h2>
+<p>Click on any of my projects to check them out!</p>
+<p>Green=Completed, Yellow=InProgress, Red=WaitListed</p> 
+<div class="container" *ngFor="let p of projects; index as i;">
+    <a href="{{p.link}}">
+        <div class="project">
+            <div class="left">
+                <img src="{{p.imgUrl}}" alt="image">
+            </div>
+            <div class="middle">
+                <h3>{{p.projectTitle}}</h3>
+                <p>{{p.desc}}</p>
+            </div>
+            <div class="right">
+                <h5>STATUS:</h5>
+                <img class="stat" src="{{p.imgStat}}" alt="image">
+            </div>
+        </div>
+    </a>
+</div>
