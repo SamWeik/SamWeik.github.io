@@ -1,14 +1,12 @@
 h1 {
-    width: 900px;
-    font-size: 50px;
-    font-weight: 900;
+    width: 100%;
+    font-size: 200%;
     text-align: center;
 }
 
 p {
     text-align: center;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 5%;
 }
 
 a {
@@ -24,18 +22,17 @@ a {
 }
 
 .course {
-    padding-left: 10px;
-    width: 350px;
+    width: 50%;
+    margin: 2%;
 }
 
 .file {
     background-color: rgb(233, 233, 233);
-    border: 2px solid rgb(194, 194, 194);
+    border: medium solid rgb(194, 194, 194);
     border-radius: 20px;
-    margin-left: 50px;
     margin-bottom: 5px;
     text-align: center;
-    width: 200px;
+    width: 100%;
 }
 
 .file:hover {

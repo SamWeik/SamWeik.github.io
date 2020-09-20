@@ -1,55 +1,58 @@
 h1 {
+    width: 100%;
     text-align: center;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 200%;
 }
 
 h2 {
     text-decoration: underline;
     padding-left: 10px;
+    font-size: 100%;
 }
 
 p {
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: 100%;
 }
 
 .project {
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
 }
 
 .left {
-    flex-grow: 1;
+    flex-grow: 2;
     align-self: center;
     text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3%;
 }
 
 .middle {
-    flex-grow: 8;
+    flex-grow: 5;
+    padding-left: 4%;
 }
 
 .right {
-    flex-grow: 1;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 2%;
+
+    flex-shrink: 10;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border-radius: 20px;
-    border: 2px solid black;
+    width: 60px;
+    height: auto;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .container {
     background-color: rgb(233, 233, 233);
-    border: 2px solid rgb(194, 194, 194);
+    border: medium solid rgb(194, 194, 194);
     border-radius: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
     text-align: left;
 }
 
@@ -58,8 +61,8 @@ img {
 }
 
 .stat {
-    width: 20px;
-    height: 20px;
+    width: 20%;
+    height: 4%;
     background-color: black;
 }
 

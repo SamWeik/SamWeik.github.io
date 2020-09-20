@@ -1,42 +1,42 @@
-h1 {
-    display: flex;
-    justify-content: center;
-    padding-right: 80vh;
-}
-
 h2 {
     font-family: "times new roman", serif;
-    font-size: 50px;
+    font-size: 100%;
     color: white;
 }
 
 p {
-    margin: 50px;
-    padding: 17px;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 0%;
+    padding: 2%;
     text-align: left;
-    border: 4px outset #3f3;
+    border: medium outset #3f3;
     color: white;
-    width: 400px;
-    font-size: calc(1px +1vw);
+    font-size: 80%;
 }
 
 img {
-    width: 200px;
-    margin: -40px;
-    border-radius: 100px;
-    border: 4px outset #3f3;
+    width: 150px;
+    border-radius: 100%;
+    border: medium outset #3f3;
 }
 
 .head {
+    position: absolute;
     display: flex;
-    text-align: center;
     justify-content: center;
+    top: 35px;
+}
+
+.who {
+    margin-left: 5%;
+    text-align: center;
 }
 
 .page {
     position: absolute;
     width: 100%;
-    top: 21%;
+    top: 380px;
 }
 
 .tabs {
@@ -45,17 +45,16 @@ img {
 }
 
 button {
-    margin: 25px;
-    border: 1px solid #3f3;
+    margin: 2%;
     background-color: transparent;
     color: #3f3;
-    border: 5px outset #3f3;
+    border: medium outset #3f3;
 }
 
 button:hover {
     background-color: transparent;
     color: white;
-    border: 5px outset white;
+    border: medium outset white;
 }
 
 button:focus {
@@ -69,9 +68,9 @@ body {
 
 body {
     width: 100%;
-    height: 200%;
+    height: 285%;
     left: -8px;
-    top: -8px;
+    top: -8px;    position: absolute;
     position: absolute;
     background-color: #000;
     background-image: // skeuomorphism anyone?
